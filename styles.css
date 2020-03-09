@@ -1,0 +1,256 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.NavBar{
+  width: 100%;
+  padding:10px;
+  padding-left: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:800px){
+  .NavBar{
+  font-size: 10px;
+}
+}
+.cop{
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  
+}
+.vl {
+  border-left: 3px solid black;
+  height: auto;
+}
+.column.a{
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  width: 20%;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.column.b{
+  float: left;
+  width: 70%;
+  margin: 5px;
+  padding-top: 10px;
+  
+  border: 1px solid black;
+}
+.head{
+  font-size: 20px;
+}
+.cat{
+  margin-top: 20px;
+  margin-left: 15px;
+
+}
+.nav{
+  margin-left: 900px;
+}
+.column{
+  float: left;
+}
+.column.aa{
+  font-family: 'Oswald', sans-serif;
+  
+  width: 20%;
+  border-radius: 2%;
+  margin-left: 10px;
+  
+}
+.ele{
+  width:50%;
+  height: 150px;;
+  border: 1px solid black;
+  border-radius: 10%;
+  text-align: center;
+  margin: 40px;
+
+}
+.Catt{
+  padding-top: 30px;
+  padding-left: 90px;
+  position: absolute;
+}
+@media screen and (min-width:300px) and (max-width:800px){
+    #root{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:700px){
+ 
+.Catt{
+  padding-left: 20px;
+}
+
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+ 
+  .Catt{
+    padding-left: 50px;
+  }
+  
+  }
+.colr{
+  margin-left: 10px;
+}
+.column.bb{
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  width: 70%;
+  border: 1px solid black;
+  
+  margin-left: 10px;
+  padding-top: 30px;
+  height:50%;
+  border-radius:2%;
+}
+.search{
+  margin-left: 760px;
+}
+
+    
+@media screen and (min-width:300px) and (max-width:1030px){
+  .search{
+    margin-left: 120px;
+  }
+    }
+     
+    
+ 
+.cartbox{
+  margin-top:50px;
+  margin-left: 150px;
+  width: 70%;
+  height: 90%;
+  border:  inset black;
+  
+}
+@media screen and (min-width:300px) and (max-width:1030px){
+  
+  .cartbox{
+    margin-left: 50px;
+    width: 80%;
+  }
+}
+.tab{
+  margin-top:30px;
+}
+
+@media screen and (min-width:300px) and (max-width:800px){
+  
+  .tab{
+    margin-top:10px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:800px){
+  
+  .cartButtons{
+    width: 10%;
+  }
+}
+.box{
+  padding-right: 150px;
+ margin-bottom: 30px;
+}
+.row.data{
+  margin: 20px;
+  padding-left: 90px;
+}
+.description{
+  border-radius: 100%;
+  margin-left: 140px;
+  
+}
+.descriptionbox{
+  margin-left: 50px;
+  margin: 10px;
+  border:1px solid black;
+  width: 80%;
+  height: 100%;
+  position: relative;
+}
+.slider{
+  margin-top: 30px;
+}
+img{
+  width: 30%;
+  height: 90%;
+}
+.imgindescontainer{
+  margin-left: 300px;
+}
+.checkout{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-Left:250px;
+}
+
+@media screen and (min-width:300px) and (max-width:800px){
+  
+  .checkout{
+    margin-Left:50px;
+    
+  }
+}
+.allItems{
+  margin-left: 50px;
+}
+
+
+@media screen and (min-width:300px) and (max-width:1030px){
+  
+  .allItems{
+    margin-Left:10px;
+  }
+}
+@media screen and (min-width:300px) and (max-width:700px){
+  
+  .cartItems{
+    width: 90%;
+    height: 120px;
+  }
+}
+
+.register-form{
+margin-top: 100px;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 20%;
+    cursor: pointer;
+    background: #0062cc;
+    color: #fff;
+}
