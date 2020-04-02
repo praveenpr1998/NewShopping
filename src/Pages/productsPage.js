@@ -61,10 +61,10 @@ class Body extends Component {
   } 
 
   //get pre existing data from sails storage and push new added product data using an array object
-  additems(e){
+  additems(e,rs){
     fetch("http://localhost:1337/cartitems/add/",{
       method:"POST",
-      body:JSON.stringify({Name:e.target.value,Quantity:"1",productId:e.target.id,userid:localStorage.getItem("userid"),token:localStorage.getItem("token")}),
+      body:JSON.stringify({Name:e.target.value,Quantity:"1",price:rs,productId:e.target.id,userid:localStorage.getItem("userid"),token:localStorage.getItem("token")}),
     })
    .then(res => res.json())
    .then(
@@ -105,7 +105,7 @@ class Body extends Component {
                     <Card.Body>
                       <p style={{ textAlign: "center" }}>{xx.name}&nbsp;&nbsp; 
                     <button className="btn btn-sm btn-warning cartButtons" onClick={() => { this.setState({ modalShow: true, descriptionValue: xx.name }) }}>i</button> </p>
-                      <p style={{ textAlign: "center" }} >RS  :{xx.rs}      <button  className="btn btn-sm btn-danger " value={xx.name} id={xx.id} onClick={(e)=>{this.additems(e);this.setState({modalPop:true});setTimeout(()=>{this.setState({modalPop:false})},500);}}>  Add</button></p>
+                      <p style={{ textAlign: "center" }} >RS  :{xx.price}      <button  className="btn btn-sm btn-danger " value={xx.name} id={xx.id} onClick={(e)=>{this.additems(e,xx.price);this.setState({modalPop:true});setTimeout(()=>{this.setState({modalPop:false})},500);}}>  Add</button></p>
                     </Card.Body>
                   </Card>
                 </div>
